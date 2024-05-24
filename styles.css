@@ -1,2 +1,73 @@
 
 /* Your CSS Code here. */
+/*  your css code here. If applicable */
+#table-2 {
+	border : 1px solid black;
+	width : 100%;
+	
+	
+}
+.table2{
+		 border: 1px solid black;
+            width: 10%;
+            height: 20px;
+}
+#t21{
+	border: 1px solid black;
+            width: 10%;
+            height: 20px;
+}
+#table-1{
+	border: 1px solid black;
+	width : 100%;
+
+}
+.left{
+	 border: 1px solid black;
+	text-align: left;
+
+}
+.center{
+	 border: 1px solid black;
+	text-align: center;
+}
+.right{
+	 border: 1px solid black;
+	text-align: right;
+}
+
+	
+	
+}
+#table-3{
+	border: 1px solid black;
+	width : 100%;
+	
+#t22{
+	border: 1px solid black;
+            width: 10%;
+            height: 20px;
+}
+	
+
+        
+
+#t-image{
+	text-align: center;
+
+}
+.first{
+	background-color: green;
+	border: 1px solid black;
+            width: 10%;
+            height: 20px;
+}
+
+
+.second {
+	background-color: blue;
+	border: 1px solid black;
+            width: 10%;
+            height: 20px;
+
+}

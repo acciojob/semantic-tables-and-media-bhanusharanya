@@ -1,78 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Media List and Student Table</title>
-    <style>
-        table {
-            width: 50%;
-            margin: 20px auto;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid #ccc;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        h2 {
-            text-align: center;
-            margin-top: 40px;
-        }
-        ol {
-            width: 50%;
-            margin: 20px auto;
-            list-style-type: decimal;
-        }
-        li {
-            margin-bottom: 20px;
-        }
-    </style>
+	<link rel="stylesheet" href="styles.css">
+	<title>HTML Assignment #3</title>
+	
 </head>
+
 <body>
+	<!-- the entire body must be written by student -->
+	<h1 align = "center">HTML Assignment #3</h1>
+	<table class= "middle" id = "table-1">
+		 <tr>
+            <td id="t11" class = "left">left</td>
+            <td id="t12"class = "center">center</td>
+            <td id="t13" class="right">right</td>
+        </tr>
+		<tr>
+<td class="left">left</td>
+		<td class ="center">center</td>
+			<td class="right">right</td>
+		</tr>
+		
+		<tr>
+<td class ="left">left</td>
+		<td class="center">center</td>
+			<td class = "right">right</td>
+		</tr>
+		
+	</table>
+	<br>
+	<table id="table-2" class = "middle">
+		<tr colspan =6>
+			<td id="t21" colspan=6></td>
+		</tr>
+		<tr>
+			<td class = "table2" rowspan ="4"></td>
+			<td class= "table2"> </td>
+			<td class= "table2"></td>
+			<td class= "table2" ></td>
+			<td class= "table2"></td>
+			<td class= "table2"></td>
+			
+			
+		</tr>
+		<tr>
+			
+			<td class = "table2"></td>
+			<td class = "table2" colspan ="3" rowspan="2"></td>
+			<td class = "table2"></td>
+		
+		</tr>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Roll Number</th>
-                <th>Name</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>John Doe</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Jane Smith</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Emily Johnson</td>
-            </tr>
-        </tbody>
-    </table>
+		<tr>
+	
+		
+			<td class = "table2"></td>
+			<td class = "table2"></td>
+		
+		</tr>
+		<tr>
+		
+			
+			
+			<td class = "table2" ></td>
+			<td class = "table2"></td>
+			<td class = "table2"></td>
+	     	<td class = "table2"></td>
+			<td class= "table2"></td>
+		
 
-    <h2>List of medias</h2>
+		</tr>
+		<tr>
+			<td colspan = "6" class ="table2"></td>
+		</tr>
+		
+		
+		
+	</table>
+	<br>
+	<table id = "table-3" class = "middle">
 
-    <ol>
-        <li>
-            <img src="https://picsum.photos/id/123/200/300" alt="first img">
-        </li>
-        <li>
-            <video controls>
-                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
-            </video>
-        </li>
-        <li>
-            <audio controls>
-                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg">
-            </audio>
-        </li>
-    </ol>
+		<tr>
+			<td class ="first"></td>
+		</tr>
+		<tr>
+			<td id ="t-image"><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"></td>
+		</tr>
+		<tr>
+			<td class="second"></td>
+		</tr>
+
+		
+		
+	</table>
+    <script type="text/javascript" src="./script.js">
+</script>
+
 </body>
+
 </html>
